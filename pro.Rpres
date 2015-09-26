@@ -1,0 +1,35 @@
+Developing Data Products - Project
+========================================================
+author: Hanjoo Kim
+date:   September 2015
+transition: rotate
+
+Goal of Project
+========================================================
+
+The goal of the project is to create Shiny application and
+present it through Slidify application.
+
+Shiny Application
+========================================================
+
+The application converts an entered degree in Fahrenheit between
+-100 to 1000 to the degrees in Kelvin and celsius.
+
+The application may be accessed at the following URL-
+
+https://hanjookim.shinyapps.io/project
+
+Screen Shot of Shiny Application
+========================================================
+
+![alt text](screenshot.png)
+
+Underlying Code
+========================================================
+
+The following is the portion of the code that coverts
+the degrees.
+
+Fahrenheit to Kevin   <- function(FtoK) ((FtoK - 32) * (5/9)) + 273.15
+Fahrenheit to Celsius <- function(FtoC) ((FtoC - 32) * (5/9))
